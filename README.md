@@ -31,9 +31,7 @@ Make sure you have MySQL installed.
 #### Access the Application
 Your application should now be deployed and running in the production environment.
 Go to your configured URL and log in.
-> Default Admin login details:
-> - Username: super@xbot.com
-> - Password: password
+
 
 #### Set up Schedule Cron Job
 Add a single cron entry on your server to run `php artisan schedule:run` every minute. e.g:
