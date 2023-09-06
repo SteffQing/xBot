@@ -12,9 +12,9 @@ use Illuminate\Support\Facades\Http;
 
 class Bitmart implements ExchangeInterface
 {
-    private $API_KEY = '7561692b0aa4c58fa28573a73700c51e54593af3';
-    private $API_SECRET = '5f5355d3c90de4716fbb1dbeb2dbbfdd024433abc95f66baa2c6613c1492e6a9';
-    private $API_MEMO = 'MMB';
+    private $API_KEY = '';
+    private $API_SECRET = '';
+    private $API_MEMO = '';
 
     private $ORDER_URL = 'https://api-cloud.bitmart.com/spot/v2/submit_order';
     private $TYPE = 'limit';
